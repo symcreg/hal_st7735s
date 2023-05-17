@@ -91,9 +91,10 @@ int main(void)
     struct Point p1,p2;
     p1.x=0;
     p1.y=0;
-    p2.x=2;
-    p2.y=2;
+    p2.x=100;
+    p2.y=140;
     lcdInit();
+    lcdFill(p1,p2,BLUE);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -104,7 +105,8 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
 
-      lcdFill(p1,p2,BLACK);
+
+
   }
   /* USER CODE END 3 */
 }
@@ -201,14 +203,14 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Pin = GPIO_PIN_5|GPIO_PIN_6|GPIO_PIN_7;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
-  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_HIGH;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
   /*Configure GPIO pins : PB6 PB7 */
   GPIO_InitStruct.Pin = GPIO_PIN_6|GPIO_PIN_7;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
-  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_HIGH;
   HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
 }

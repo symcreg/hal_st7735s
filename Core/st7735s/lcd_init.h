@@ -40,7 +40,8 @@
 #define csReset() HAL_GPIO_WritePin(GPIOB,GPIO_PIN_6,GPIO_PIN_RESET)
 
 void lcdWrite(uint8_t data);
-void lcdWriteData(uint8_t data);
+void lcdWriteData8(uint8_t data);
+void lcdWriteData(uint16_t data);
 void lcdWriteCommand(uint8_t command);
 void lcdSetAddress(uint16_t x1,uint16_t y1,uint16_t x2,uint16_t y2);
 void lcdReset();
