@@ -111,6 +111,12 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd.c.obj
  .data          0x00000000        0x0 CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd.c.obj
  .bss           0x00000000        0x0 CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd.c.obj
+ .text.lcdDrawLine
+                0x00000000       0xba CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd.c.obj
+ .text.lcdDrawRectangle
+                0x00000000       0x64 CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd.c.obj
+ .text.lcdDrawImg
+                0x00000000       0x58 CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd.c.obj
  .text          0x00000000        0x0 CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd_init.c.obj
  .data          0x00000000        0x0 CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd_init.c.obj
  .bss           0x00000000        0x0 CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd_init.c.obj
@@ -765,316 +771,344 @@ LOAD d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/
                 0x08000000                g_pfnVectors
                 0x080001e4                . = ALIGN (0x4)
 
-.text           0x080001e4     0x1320
+.text           0x080001e4     0x14c0
                 0x080001e4                . = ALIGN (0x4)
  *(.text)
  .text          0x080001e4       0x40 d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
  *(.text*)
  .text.MX_GPIO_Init
-                0x08000224       0x8c CMakeFiles/ST7735s.elf.dir/Core/Src/main.c.obj
+                0x08000224       0xb0 CMakeFiles/ST7735s.elf.dir/Core/Src/main.c.obj
  .text.Error_Handler
-                0x080002b0        0x4 CMakeFiles/ST7735s.elf.dir/Core/Src/main.c.obj
-                0x080002b0                Error_Handler
+                0x080002d4        0x4 CMakeFiles/ST7735s.elf.dir/Core/Src/main.c.obj
+                0x080002d4                Error_Handler
  .text.MX_USART1_UART_Init
-                0x080002b4       0x34 CMakeFiles/ST7735s.elf.dir/Core/Src/main.c.obj
+                0x080002d8       0x34 CMakeFiles/ST7735s.elf.dir/Core/Src/main.c.obj
  .text.SystemClock_Config
-                0x080002e8       0x52 CMakeFiles/ST7735s.elf.dir/Core/Src/main.c.obj
-                0x080002e8                SystemClock_Config
- .text.main     0x0800033a       0x3a CMakeFiles/ST7735s.elf.dir/Core/Src/main.c.obj
-                0x0800033a                main
+                0x0800030c       0x64 CMakeFiles/ST7735s.elf.dir/Core/Src/main.c.obj
+                0x0800030c                SystemClock_Config
+ .text.main     0x08000370       0x58 CMakeFiles/ST7735s.elf.dir/Core/Src/main.c.obj
+                0x08000370                main
  .text.HAL_MspInit
-                0x08000374       0x44 CMakeFiles/ST7735s.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
-                0x08000374                HAL_MspInit
+                0x080003c8       0x44 CMakeFiles/ST7735s.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+                0x080003c8                HAL_MspInit
  .text.HAL_UART_MspInit
-                0x080003b8       0x78 CMakeFiles/ST7735s.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
-                0x080003b8                HAL_UART_MspInit
+                0x0800040c       0x78 CMakeFiles/ST7735s.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+                0x0800040c                HAL_UART_MspInit
  .text.NMI_Handler
-                0x08000430        0x2 CMakeFiles/ST7735s.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x08000430                NMI_Handler
+                0x08000484        0x2 CMakeFiles/ST7735s.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08000484                NMI_Handler
  .text.HardFault_Handler
-                0x08000432        0x2 CMakeFiles/ST7735s.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x08000432                HardFault_Handler
+                0x08000486        0x2 CMakeFiles/ST7735s.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08000486                HardFault_Handler
  .text.MemManage_Handler
-                0x08000434        0x2 CMakeFiles/ST7735s.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x08000434                MemManage_Handler
+                0x08000488        0x2 CMakeFiles/ST7735s.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08000488                MemManage_Handler
  .text.BusFault_Handler
-                0x08000436        0x2 CMakeFiles/ST7735s.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x08000436                BusFault_Handler
+                0x0800048a        0x2 CMakeFiles/ST7735s.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x0800048a                BusFault_Handler
  .text.UsageFault_Handler
-                0x08000438        0x2 CMakeFiles/ST7735s.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x08000438                UsageFault_Handler
+                0x0800048c        0x2 CMakeFiles/ST7735s.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x0800048c                UsageFault_Handler
  .text.SVC_Handler
-                0x0800043a        0x2 CMakeFiles/ST7735s.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x0800043a                SVC_Handler
+                0x0800048e        0x2 CMakeFiles/ST7735s.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x0800048e                SVC_Handler
  .text.DebugMon_Handler
-                0x0800043c        0x2 CMakeFiles/ST7735s.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x0800043c                DebugMon_Handler
+                0x08000490        0x2 CMakeFiles/ST7735s.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08000490                DebugMon_Handler
  .text.PendSV_Handler
-                0x0800043e        0x2 CMakeFiles/ST7735s.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x0800043e                PendSV_Handler
+                0x08000492        0x2 CMakeFiles/ST7735s.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08000492                PendSV_Handler
  .text.SysTick_Handler
-                0x08000440        0x8 CMakeFiles/ST7735s.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x08000440                SysTick_Handler
+                0x08000494        0x8 CMakeFiles/ST7735s.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08000494                SysTick_Handler
  .text.SystemInit
-                0x08000448        0x2 CMakeFiles/ST7735s.elf.dir/Core/Src/system_stm32f1xx.c.obj
-                0x08000448                SystemInit
- *fill*         0x0800044a        0x2 
+                0x0800049c        0x2 CMakeFiles/ST7735s.elf.dir/Core/Src/system_stm32f1xx.c.obj
+                0x0800049c                SystemInit
+ *fill*         0x0800049e        0x2 
  .text.Reset_Handler
-                0x0800044c       0x48 CMakeFiles/ST7735s.elf.dir/Core/Startup/startup_stm32f103rctx.s.obj
-                0x0800044c                Reset_Handler
+                0x080004a0       0x48 CMakeFiles/ST7735s.elf.dir/Core/Startup/startup_stm32f103rctx.s.obj
+                0x080004a0                Reset_Handler
  .text.Default_Handler
-                0x08000494        0x2 CMakeFiles/ST7735s.elf.dir/Core/Startup/startup_stm32f103rctx.s.obj
-                0x08000494                RTC_Alarm_IRQHandler
-                0x08000494                EXTI2_IRQHandler
-                0x08000494                TIM8_TRG_COM_IRQHandler
-                0x08000494                TIM8_CC_IRQHandler
-                0x08000494                TIM1_CC_IRQHandler
-                0x08000494                TIM6_IRQHandler
-                0x08000494                PVD_IRQHandler
-                0x08000494                SDIO_IRQHandler
-                0x08000494                EXTI3_IRQHandler
-                0x08000494                EXTI0_IRQHandler
-                0x08000494                I2C2_EV_IRQHandler
-                0x08000494                ADC1_2_IRQHandler
-                0x08000494                SPI1_IRQHandler
-                0x08000494                TAMPER_IRQHandler
-                0x08000494                TIM8_UP_IRQHandler
-                0x08000494                DMA2_Channel2_IRQHandler
-                0x08000494                DMA1_Channel4_IRQHandler
-                0x08000494                USART3_IRQHandler
-                0x08000494                RTC_IRQHandler
-                0x08000494                DMA1_Channel7_IRQHandler
-                0x08000494                CAN1_RX1_IRQHandler
-                0x08000494                UART5_IRQHandler
-                0x08000494                ADC3_IRQHandler
-                0x08000494                TIM4_IRQHandler
-                0x08000494                DMA2_Channel1_IRQHandler
-                0x08000494                I2C1_EV_IRQHandler
-                0x08000494                DMA1_Channel6_IRQHandler
-                0x08000494                UART4_IRQHandler
-                0x08000494                TIM3_IRQHandler
-                0x08000494                RCC_IRQHandler
-                0x08000494                TIM1_TRG_COM_IRQHandler
-                0x08000494                DMA1_Channel1_IRQHandler
-                0x08000494                Default_Handler
-                0x08000494                EXTI15_10_IRQHandler
-                0x08000494                TIM7_IRQHandler
-                0x08000494                TIM5_IRQHandler
-                0x08000494                EXTI9_5_IRQHandler
-                0x08000494                SPI2_IRQHandler
-                0x08000494                DMA1_Channel5_IRQHandler
-                0x08000494                EXTI4_IRQHandler
-                0x08000494                USB_LP_CAN1_RX0_IRQHandler
-                0x08000494                USB_HP_CAN1_TX_IRQHandler
-                0x08000494                DMA1_Channel3_IRQHandler
-                0x08000494                FSMC_IRQHandler
-                0x08000494                TIM1_UP_IRQHandler
-                0x08000494                WWDG_IRQHandler
-                0x08000494                TIM2_IRQHandler
-                0x08000494                TIM1_BRK_IRQHandler
-                0x08000494                EXTI1_IRQHandler
-                0x08000494                DMA2_Channel4_5_IRQHandler
-                0x08000494                USART2_IRQHandler
-                0x08000494                I2C2_ER_IRQHandler
-                0x08000494                DMA1_Channel2_IRQHandler
-                0x08000494                TIM8_BRK_IRQHandler
-                0x08000494                CAN1_SCE_IRQHandler
-                0x08000494                FLASH_IRQHandler
-                0x08000494                USART1_IRQHandler
-                0x08000494                SPI3_IRQHandler
-                0x08000494                I2C1_ER_IRQHandler
-                0x08000494                USBWakeUp_IRQHandler
-                0x08000494                DMA2_Channel3_IRQHandler
- .text.lcdFill  0x08000496       0x4a CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd.c.obj
-                0x08000496                lcdFill
+                0x080004e8        0x2 CMakeFiles/ST7735s.elf.dir/Core/Startup/startup_stm32f103rctx.s.obj
+                0x080004e8                RTC_Alarm_IRQHandler
+                0x080004e8                EXTI2_IRQHandler
+                0x080004e8                TIM8_TRG_COM_IRQHandler
+                0x080004e8                TIM8_CC_IRQHandler
+                0x080004e8                TIM1_CC_IRQHandler
+                0x080004e8                TIM6_IRQHandler
+                0x080004e8                PVD_IRQHandler
+                0x080004e8                SDIO_IRQHandler
+                0x080004e8                EXTI3_IRQHandler
+                0x080004e8                EXTI0_IRQHandler
+                0x080004e8                I2C2_EV_IRQHandler
+                0x080004e8                ADC1_2_IRQHandler
+                0x080004e8                SPI1_IRQHandler
+                0x080004e8                TAMPER_IRQHandler
+                0x080004e8                TIM8_UP_IRQHandler
+                0x080004e8                DMA2_Channel2_IRQHandler
+                0x080004e8                DMA1_Channel4_IRQHandler
+                0x080004e8                USART3_IRQHandler
+                0x080004e8                RTC_IRQHandler
+                0x080004e8                DMA1_Channel7_IRQHandler
+                0x080004e8                CAN1_RX1_IRQHandler
+                0x080004e8                UART5_IRQHandler
+                0x080004e8                ADC3_IRQHandler
+                0x080004e8                TIM4_IRQHandler
+                0x080004e8                DMA2_Channel1_IRQHandler
+                0x080004e8                I2C1_EV_IRQHandler
+                0x080004e8                DMA1_Channel6_IRQHandler
+                0x080004e8                UART4_IRQHandler
+                0x080004e8                TIM3_IRQHandler
+                0x080004e8                RCC_IRQHandler
+                0x080004e8                TIM1_TRG_COM_IRQHandler
+                0x080004e8                DMA1_Channel1_IRQHandler
+                0x080004e8                Default_Handler
+                0x080004e8                EXTI15_10_IRQHandler
+                0x080004e8                TIM7_IRQHandler
+                0x080004e8                TIM5_IRQHandler
+                0x080004e8                EXTI9_5_IRQHandler
+                0x080004e8                SPI2_IRQHandler
+                0x080004e8                DMA1_Channel5_IRQHandler
+                0x080004e8                EXTI4_IRQHandler
+                0x080004e8                USB_LP_CAN1_RX0_IRQHandler
+                0x080004e8                USB_HP_CAN1_TX_IRQHandler
+                0x080004e8                DMA1_Channel3_IRQHandler
+                0x080004e8                FSMC_IRQHandler
+                0x080004e8                TIM1_UP_IRQHandler
+                0x080004e8                WWDG_IRQHandler
+                0x080004e8                TIM2_IRQHandler
+                0x080004e8                TIM1_BRK_IRQHandler
+                0x080004e8                EXTI1_IRQHandler
+                0x080004e8                DMA2_Channel4_5_IRQHandler
+                0x080004e8                USART2_IRQHandler
+                0x080004e8                I2C2_ER_IRQHandler
+                0x080004e8                DMA1_Channel2_IRQHandler
+                0x080004e8                TIM8_BRK_IRQHandler
+                0x080004e8                CAN1_SCE_IRQHandler
+                0x080004e8                FLASH_IRQHandler
+                0x080004e8                USART1_IRQHandler
+                0x080004e8                SPI3_IRQHandler
+                0x080004e8                I2C1_ER_IRQHandler
+                0x080004e8                USBWakeUp_IRQHandler
+                0x080004e8                DMA2_Channel3_IRQHandler
+ .text.lcdFill  0x080004ea       0x4a CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd.c.obj
+                0x080004ea                lcdFill
+ .text.lcdDrawPoint
+                0x08000534       0x22 CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd.c.obj
+                0x08000534                lcdDrawPoint
+ *fill*         0x08000556        0x2 
+ .text.lcdDrawChar
+                0x08000558      0x14c CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd.c.obj
+                0x08000558                lcdDrawChar
+ .text.lcdDrawString
+                0x080006a4       0x42 CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd.c.obj
+                0x080006a4                lcdDrawString
+ *fill*         0x080006e6        0x2 
  .text.lcdWrite
-                0x080004e0       0x64 CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd_init.c.obj
-                0x080004e0                lcdWrite
+                0x080006e8       0x64 CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd_init.c.obj
+                0x080006e8                lcdWrite
  .text.lcdWriteData8
-                0x08000544       0x1c CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd_init.c.obj
-                0x08000544                lcdWriteData8
+                0x0800074c        0x8 CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd_init.c.obj
+                0x0800074c                lcdWriteData8
  .text.lcdWriteData
-                0x08000560       0x20 CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd_init.c.obj
-                0x08000560                lcdWriteData
+                0x08000754       0x12 CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd_init.c.obj
+                0x08000754                lcdWriteData
+ *fill*         0x08000766        0x2 
  .text.lcdWriteCommand
-                0x08000580       0x1c CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd_init.c.obj
-                0x08000580                lcdWriteCommand
+                0x08000768       0x28 CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd_init.c.obj
+                0x08000768                lcdWriteCommand
  .text.lcdSetAddress
-                0x0800059c       0x36 CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd_init.c.obj
-                0x0800059c                lcdSetAddress
- *fill*         0x080005d2        0x2 
+                0x08000790       0x36 CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd_init.c.obj
+                0x08000790                lcdSetAddress
+ *fill*         0x080007c6        0x2 
  .text.lcdReset
-                0x080005d4       0x2c CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd_init.c.obj
-                0x080005d4                lcdReset
- .text.lcdInit  0x08000600      0x21e CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd_init.c.obj
-                0x08000600                lcdInit
- *fill*         0x0800081e        0x2 
+                0x080007c8       0x2c CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd_init.c.obj
+                0x080007c8                lcdReset
+ .text.lcdInit  0x080007f4      0x1ca CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd_init.c.obj
+                0x080007f4                lcdInit
+ *fill*         0x080009be        0x2 
  .text.HAL_InitTick
-                0x08000820       0x4c CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x08000820                HAL_InitTick
+                0x080009c0       0x4c CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x080009c0                HAL_InitTick
  .text.HAL_Init
-                0x0800086c       0x24 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x0800086c                HAL_Init
+                0x08000a0c       0x24 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x08000a0c                HAL_Init
  .text.HAL_IncTick
-                0x08000890       0x18 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x08000890                HAL_IncTick
+                0x08000a30       0x18 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x08000a30                HAL_IncTick
  .text.HAL_GetTick
-                0x080008a8        0xc CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x080008a8                HAL_GetTick
+                0x08000a48        0xc CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x08000a48                HAL_GetTick
  .text.HAL_Delay
-                0x080008b4       0x28 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x080008b4                HAL_Delay
+                0x08000a54       0x28 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x08000a54                HAL_Delay
  .text.HAL_NVIC_SetPriorityGrouping
-                0x080008dc       0x24 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-                0x080008dc                HAL_NVIC_SetPriorityGrouping
+                0x08000a7c       0x24 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x08000a7c                HAL_NVIC_SetPriorityGrouping
  .text.HAL_NVIC_SetPriority
-                0x08000900       0x70 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-                0x08000900                HAL_NVIC_SetPriority
+                0x08000aa0       0x70 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x08000aa0                HAL_NVIC_SetPriority
  .text.HAL_SYSTICK_Config
-                0x08000970       0x28 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-                0x08000970                HAL_SYSTICK_Config
+                0x08000b10       0x28 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x08000b10                HAL_SYSTICK_Config
  .text.HAL_GPIO_Init
-                0x08000998      0x240 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
-                0x08000998                HAL_GPIO_Init
+                0x08000b38      0x240 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+                0x08000b38                HAL_GPIO_Init
  .text.HAL_GPIO_WritePin
-                0x08000bd8        0xc CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
-                0x08000bd8                HAL_GPIO_WritePin
+                0x08000d78        0xc CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+                0x08000d78                HAL_GPIO_WritePin
  .text.RCC_Delay
-                0x08000be4       0x2c CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08000d84       0x2c CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .text.HAL_RCC_OscConfig
-                0x08000c10      0x410 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x08000c10                HAL_RCC_OscConfig
+                0x08000db0      0x410 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08000db0                HAL_RCC_OscConfig
  .text.HAL_RCC_GetSysClockFreq
-                0x08001020       0x54 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x08001020                HAL_RCC_GetSysClockFreq
+                0x080011c0       0x54 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x080011c0                HAL_RCC_GetSysClockFreq
  .text.HAL_RCC_ClockConfig
-                0x08001074      0x16c CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x08001074                HAL_RCC_ClockConfig
+                0x08001214      0x16c CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08001214                HAL_RCC_ClockConfig
  .text.HAL_RCC_GetHCLKFreq
-                0x080011e0        0xc CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x080011e0                HAL_RCC_GetHCLKFreq
+                0x08001380        0xc CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08001380                HAL_RCC_GetHCLKFreq
  .text.HAL_RCC_GetPCLK1Freq
-                0x080011ec       0x20 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x080011ec                HAL_RCC_GetPCLK1Freq
+                0x0800138c       0x20 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x0800138c                HAL_RCC_GetPCLK1Freq
  .text.HAL_RCC_GetPCLK2Freq
-                0x0800120c       0x20 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x0800120c                HAL_RCC_GetPCLK2Freq
+                0x080013ac       0x20 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x080013ac                HAL_RCC_GetPCLK2Freq
  .text.UART_SetConfig
-                0x0800122c       0x94 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x080013cc       0x94 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.HAL_UART_Init
-                0x080012c0       0x60 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
-                0x080012c0                HAL_UART_Init
+                0x08001460       0x60 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x08001460                HAL_UART_Init
  .text.__libc_init_array
-                0x08001320       0x48 d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-init.o)
-                0x08001320                __libc_init_array
- .text.memset   0x08001368       0xa4 d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-memset.o)
-                0x08001368                memset
+                0x080014c0       0x48 d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-init.o)
+                0x080014c0                __libc_init_array
+ .text.memset   0x08001508       0xa4 d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-memset.o)
+                0x08001508                memset
  .text.startup.register_fini
-                0x0800140c       0x14 d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__call_atexit.o)
- .text.atexit   0x08001420        0xc d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-atexit.o)
-                0x08001420                atexit
+                0x080015ac       0x14 d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__call_atexit.o)
+ .text.atexit   0x080015c0        0xc d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-atexit.o)
+                0x080015c0                atexit
  .text.__libc_fini_array
-                0x0800142c       0x2c d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-fini.o)
-                0x0800142c                __libc_fini_array
+                0x080015cc       0x2c d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-fini.o)
+                0x080015cc                __libc_fini_array
  .text.__retarget_lock_acquire_recursive
-                0x08001458        0x4 d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-lock.o)
-                0x08001458                __retarget_lock_acquire_recursive
+                0x080015f8        0x4 d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-lock.o)
+                0x080015f8                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x0800145c        0x4 d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-lock.o)
-                0x0800145c                __retarget_lock_release_recursive
+                0x080015fc        0x4 d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-lock.o)
+                0x080015fc                __retarget_lock_release_recursive
  .text.__register_exitproc
-                0x08001460       0x8c d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__atexit.o)
-                0x08001460                __register_exitproc
+                0x08001600       0x8c d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__atexit.o)
+                0x08001600                __register_exitproc
  *(.glue_7)
- .glue_7        0x080014ec        0x0 linker stubs
+ .glue_7        0x0800168c        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x080014ec        0x0 linker stubs
+ .glue_7t       0x0800168c        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x080014ec        0x0 d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+ .eh_frame      0x0800168c        0x0 d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
  *(.init)
- .init          0x080014ec        0x4 d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
-                0x080014ec                _init
- .init          0x080014f0        0x8 d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
+ .init          0x0800168c        0x4 d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
+                0x0800168c                _init
+ .init          0x08001690        0x8 d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
  *(.fini)
- .fini          0x080014f8        0x4 d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
-                0x080014f8                _fini
- .fini          0x080014fc        0x8 d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
-                0x08001504                . = ALIGN (0x4)
-                0x08001504                _etext = .
+ .fini          0x08001698        0x4 d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
+                0x08001698                _fini
+ .fini          0x0800169c        0x8 d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
+                0x080016a4                . = ALIGN (0x4)
+                0x080016a4                _etext = .
 
-.vfp11_veneer   0x08001504        0x0
- .vfp11_veneer  0x08001504        0x0 linker stubs
+.vfp11_veneer   0x080016a4        0x0
+ .vfp11_veneer  0x080016a4        0x0 linker stubs
 
-.v4_bx          0x08001504        0x0
- .v4_bx         0x08001504        0x0 linker stubs
+.v4_bx          0x080016a4        0x0
+ .v4_bx         0x080016a4        0x0 linker stubs
 
-.iplt           0x08001504        0x0
- .iplt          0x08001504        0x0 d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+.iplt           0x080016a4        0x0
+ .iplt          0x080016a4        0x0 d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
 
-.rodata         0x08001504       0x30
-                0x08001504                . = ALIGN (0x4)
+.rodata         0x080016a4     0x3438
+                0x080016a4                . = ALIGN (0x4)
  *(.rodata)
+ .rodata        0x080016a4        0x8 CMakeFiles/ST7735s.elf.dir/Core/Src/main.c.obj
  *(.rodata*)
+ .rodata.main.str1.4
+                0x080016ac        0xa CMakeFiles/ST7735s.elf.dir/Core/Src/main.c.obj
+ *fill*         0x080016b6        0x2 
  .rodata.AHBPrescTable
-                0x08001504       0x10 CMakeFiles/ST7735s.elf.dir/Core/Src/system_stm32f1xx.c.obj
-                0x08001504                AHBPrescTable
+                0x080016b8       0x10 CMakeFiles/ST7735s.elf.dir/Core/Src/system_stm32f1xx.c.obj
+                0x080016b8                AHBPrescTable
  .rodata.APBPrescTable
-                0x08001514        0x8 CMakeFiles/ST7735s.elf.dir/Core/Src/system_stm32f1xx.c.obj
-                0x08001514                APBPrescTable
+                0x080016c8        0x8 CMakeFiles/ST7735s.elf.dir/Core/Src/system_stm32f1xx.c.obj
+                0x080016c8                APBPrescTable
+ .rodata.ascii_1206
+                0x080016d0      0x474 CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd.c.obj
+                0x080016d0                ascii_1206
+ .rodata.ascii_1608
+                0x08001b44      0x5f0 CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd.c.obj
+                0x08001b44                ascii_1608
+ .rodata.ascii_2412
+                0x08002134     0x11d0 CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd.c.obj
+                0x08002134                ascii_2412
+ .rodata.ascii_3216
+                0x08003304     0x17c0 CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd.c.obj
+                0x08003304                ascii_3216
  .rodata.aPLLMULFactorTable.1
-                0x0800151c       0x10 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08004ac4       0x10 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .rodata.aPredivFactorTable.0
-                0x0800152c        0x2 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- *fill*         0x0800152e        0x2 
+                0x08004ad4        0x2 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ *fill*         0x08004ad6        0x2 
  .rodata._global_impure_ptr
-                0x08001530        0x4 d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-impure.o)
-                0x08001530                _global_impure_ptr
-                0x08001534                . = ALIGN (0x4)
+                0x08004ad8        0x4 d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-impure.o)
+                0x08004ad8                _global_impure_ptr
+                0x08004adc                . = ALIGN (0x4)
 
-.rel.dyn        0x08001534        0x0
- .rel.iplt      0x08001534        0x0 d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+.rel.dyn        0x08004adc        0x0
+ .rel.iplt      0x08004adc        0x0 d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
 
-.ARM.extab      0x08001534        0x0
-                0x08001534                . = ALIGN (0x4)
+.ARM.extab      0x08004adc        0x0
+                0x08004adc                . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x08001534                . = ALIGN (0x4)
+                0x08004adc                . = ALIGN (0x4)
 
-.ARM            0x08001534        0x0
-                0x08001534                . = ALIGN (0x4)
-                0x08001534                __exidx_start = .
+.ARM            0x08004adc        0x0
+                0x08004adc                . = ALIGN (0x4)
+                0x08004adc                __exidx_start = .
  *(.ARM.exidx*)
-                0x08001534                __exidx_end = .
-                0x08001534                . = ALIGN (0x4)
+                0x08004adc                __exidx_end = .
+                0x08004adc                . = ALIGN (0x4)
 
-.preinit_array  0x08001534        0x0
-                0x08001534                . = ALIGN (0x4)
-                0x08001534                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x08004adc        0x0
+                0x08004adc                . = ALIGN (0x4)
+                0x08004adc                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x08001534                PROVIDE (__preinit_array_end = .)
-                0x08001534                . = ALIGN (0x4)
+                0x08004adc                PROVIDE (__preinit_array_end = .)
+                0x08004adc                . = ALIGN (0x4)
 
-.init_array     0x08001534        0x8
-                0x08001534                . = ALIGN (0x4)
-                0x08001534                PROVIDE (__init_array_start = .)
+.init_array     0x08004adc        0x8
+                0x08004adc                . = ALIGN (0x4)
+                0x08004adc                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  .init_array.00000
-                0x08001534        0x4 d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__call_atexit.o)
+                0x08004adc        0x4 d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__call_atexit.o)
  *(.init_array*)
- .init_array    0x08001538        0x4 d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
-                0x0800153c                PROVIDE (__init_array_end = .)
-                0x0800153c                . = ALIGN (0x4)
+ .init_array    0x08004ae0        0x4 d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+                0x08004ae4                PROVIDE (__init_array_end = .)
+                0x08004ae4                . = ALIGN (0x4)
 
-.fini_array     0x0800153c        0x4
-                0x0800153c                . = ALIGN (0x4)
-                0x0800153c                PROVIDE (__fini_array_start = .)
+.fini_array     0x08004ae4        0x4
+                0x08004ae4                . = ALIGN (0x4)
+                0x08004ae4                PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x0800153c        0x4 d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
-                0x08001540                PROVIDE (__fini_array_end = .)
-                0x08001540                . = ALIGN (0x4)
-                0x08001540                _sidata = LOADADDR (.data)
+ .fini_array    0x08004ae4        0x4 d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+                0x08004ae8                PROVIDE (__fini_array_end = .)
+                0x08004ae8                . = ALIGN (0x4)
+                0x08004ae8                _sidata = LOADADDR (.data)
 
-.data           0x20000000      0x43c load address 0x08001540
+.data           0x20000000      0x43c load address 0x08004ae8
                 0x20000000                . = ALIGN (0x4)
                 0x20000000                _sdata = .
  *(.data)
@@ -1100,11 +1134,11 @@ LOAD d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/
                 0x2000043c                . = ALIGN (0x4)
                 0x2000043c                _edata = .
 
-.igot.plt       0x2000043c        0x0 load address 0x0800197c
+.igot.plt       0x2000043c        0x0 load address 0x08004f24
  .igot.plt      0x2000043c        0x0 d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
                 0x2000043c                . = ALIGN (0x4)
 
-.bss            0x2000043c       0x6c load address 0x0800197c
+.bss            0x2000043c       0x6c load address 0x08004f24
                 0x2000043c                _sbss = .
                 0x2000043c                __bss_start__ = _sbss
  *(.bss)
@@ -1124,7 +1158,7 @@ LOAD d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/
                 0x200004a8                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x200004a8      0x600 load address 0x0800197c
+                0x200004a8      0x600 load address 0x08004f24
                 0x200004a8                . = ALIGN (0x8)
                 [!provide]                PROVIDE (end = .)
                 0x200004a8                PROVIDE (_end = .)
@@ -1194,35 +1228,35 @@ LOAD d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../..
 LOAD d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a
 LOAD d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a
 
-.debug_info     0x00000000     0x8d65
- .debug_info    0x00000000      0xafb CMakeFiles/ST7735s.elf.dir/Core/Src/main.c.obj
- .debug_info    0x00000afb      0x8a6 CMakeFiles/ST7735s.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_info    0x000013a1      0x130 CMakeFiles/ST7735s.elf.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_info    0x000014d1      0x248 CMakeFiles/ST7735s.elf.dir/Core/Src/system_stm32f1xx.c.obj
- .debug_info    0x00001719       0x22 CMakeFiles/ST7735s.elf.dir/Core/Startup/startup_stm32f103rctx.s.obj
- .debug_info    0x0000173b      0x178 CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd.c.obj
- .debug_info    0x000018b3      0xbf8 CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd_init.c.obj
- .debug_info    0x000024ab      0x80e CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_info    0x00002cb9      0xdf0 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_info    0x00003aa9      0x66f CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_info    0x00004118      0xa3b CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_info    0x00004b53     0x4212 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+.debug_info     0x00000000     0x9308
+ .debug_info    0x00000000      0xb80 CMakeFiles/ST7735s.elf.dir/Core/Src/main.c.obj
+ .debug_info    0x00000b80      0x8a6 CMakeFiles/ST7735s.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_info    0x00001426      0x130 CMakeFiles/ST7735s.elf.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_info    0x00001556      0x248 CMakeFiles/ST7735s.elf.dir/Core/Src/system_stm32f1xx.c.obj
+ .debug_info    0x0000179e       0x22 CMakeFiles/ST7735s.elf.dir/Core/Startup/startup_stm32f103rctx.s.obj
+ .debug_info    0x000017c0      0x7d3 CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd.c.obj
+ .debug_info    0x00001f93      0xabb CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd_init.c.obj
+ .debug_info    0x00002a4e      0x80e CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_info    0x0000325c      0xdf0 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_info    0x0000404c      0x66f CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_info    0x000046bb      0xa3b CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_info    0x000050f6     0x4212 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
 
-.debug_abbrev   0x00000000     0x1477
+.debug_abbrev   0x00000000     0x153b
  .debug_abbrev  0x00000000      0x226 CMakeFiles/ST7735s.elf.dir/Core/Src/main.c.obj
  .debug_abbrev  0x00000226      0x1b7 CMakeFiles/ST7735s.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
  .debug_abbrev  0x000003dd       0x7e CMakeFiles/ST7735s.elf.dir/Core/Src/stm32f1xx_it.c.obj
  .debug_abbrev  0x0000045b      0x13e CMakeFiles/ST7735s.elf.dir/Core/Src/system_stm32f1xx.c.obj
  .debug_abbrev  0x00000599       0x12 CMakeFiles/ST7735s.elf.dir/Core/Startup/startup_stm32f103rctx.s.obj
- .debug_abbrev  0x000005ab       0xec CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd.c.obj
- .debug_abbrev  0x00000697      0x16e CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd_init.c.obj
- .debug_abbrev  0x00000805      0x1f4 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_abbrev  0x000009f9      0x341 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_abbrev  0x00000d3a      0x1e6 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_abbrev  0x00000f20      0x27a CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_abbrev  0x0000119a      0x2dd CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_abbrev  0x000005ab      0x1b0 CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd.c.obj
+ .debug_abbrev  0x0000075b      0x16e CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd_init.c.obj
+ .debug_abbrev  0x000008c9      0x1f4 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_abbrev  0x00000abd      0x341 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_abbrev  0x00000dfe      0x1e6 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_abbrev  0x00000fe4      0x27a CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_abbrev  0x0000125e      0x2dd CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
 
-.debug_aranges  0x00000000      0x5f0
+.debug_aranges  0x00000000      0x620
  .debug_aranges
                 0x00000000       0x40 CMakeFiles/ST7735s.elf.dir/Core/Src/main.c.obj
  .debug_aranges
@@ -1234,72 +1268,72 @@ LOAD d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/
  .debug_aranges
                 0x000000f8       0x28 CMakeFiles/ST7735s.elf.dir/Core/Startup/startup_stm32f103rctx.s.obj
  .debug_aranges
-                0x00000120       0x20 CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd.c.obj
+                0x00000120       0x50 CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd.c.obj
  .debug_aranges
-                0x00000140       0x50 CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd_init.c.obj
+                0x00000170       0x50 CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd_init.c.obj
  .debug_aranges
-                0x00000190       0xe0 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x000001c0       0xe0 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
  .debug_aranges
-                0x00000270       0x90 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x000002a0       0x90 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .debug_aranges
-                0x00000300       0x58 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+                0x00000330       0x58 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
  .debug_aranges
-                0x00000358       0x90 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x00000388       0x90 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .debug_aranges
-                0x000003e8      0x208 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x00000418      0x208 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
 
-.debug_ranges   0x00000000      0x5e8
+.debug_ranges   0x00000000      0x668
  .debug_ranges  0x00000000       0x30 CMakeFiles/ST7735s.elf.dir/Core/Src/main.c.obj
  .debug_ranges  0x00000030       0x20 CMakeFiles/ST7735s.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
  .debug_ranges  0x00000050       0x50 CMakeFiles/ST7735s.elf.dir/Core/Src/stm32f1xx_it.c.obj
  .debug_ranges  0x000000a0       0x18 CMakeFiles/ST7735s.elf.dir/Core/Src/system_stm32f1xx.c.obj
  .debug_ranges  0x000000b8       0x20 CMakeFiles/ST7735s.elf.dir/Core/Startup/startup_stm32f103rctx.s.obj
- .debug_ranges  0x000000d8       0x28 CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd.c.obj
- .debug_ranges  0x00000100       0x40 CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd_init.c.obj
- .debug_ranges  0x00000140       0xd0 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_ranges  0x00000210       0xe0 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_ranges  0x000002f0       0x48 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_ranges  0x00000338       0xa0 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_ranges  0x000003d8      0x210 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_ranges  0x000000d8       0xa8 CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd.c.obj
+ .debug_ranges  0x00000180       0x40 CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd_init.c.obj
+ .debug_ranges  0x000001c0       0xd0 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_ranges  0x00000290       0xe0 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_ranges  0x00000370       0x48 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_ranges  0x000003b8       0xa0 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_ranges  0x00000458      0x210 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
 
-.debug_line     0x00000000     0x734b
- .debug_line    0x00000000      0x4bc CMakeFiles/ST7735s.elf.dir/Core/Src/main.c.obj
- .debug_line    0x000004bc      0x2cc CMakeFiles/ST7735s.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_line    0x00000788      0x1c5 CMakeFiles/ST7735s.elf.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_line    0x0000094d      0x24a CMakeFiles/ST7735s.elf.dir/Core/Src/system_stm32f1xx.c.obj
- .debug_line    0x00000b97       0xab CMakeFiles/ST7735s.elf.dir/Core/Startup/startup_stm32f103rctx.s.obj
- .debug_line    0x00000c42      0x178 CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd.c.obj
- .debug_line    0x00000dba      0x34f CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd_init.c.obj
- .debug_line    0x00001109      0x580 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_line    0x00001689      0x664 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_line    0x00001ced      0x620 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_line    0x0000230d      0xc49 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_line    0x00002f56     0x43f5 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+.debug_line     0x00000000     0x7733
+ .debug_line    0x00000000      0x4ce CMakeFiles/ST7735s.elf.dir/Core/Src/main.c.obj
+ .debug_line    0x000004ce      0x2cc CMakeFiles/ST7735s.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_line    0x0000079a      0x1c5 CMakeFiles/ST7735s.elf.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_line    0x0000095f      0x24a CMakeFiles/ST7735s.elf.dir/Core/Src/system_stm32f1xx.c.obj
+ .debug_line    0x00000ba9       0xab CMakeFiles/ST7735s.elf.dir/Core/Startup/startup_stm32f103rctx.s.obj
+ .debug_line    0x00000c54      0x560 CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd.c.obj
+ .debug_line    0x000011b4      0x33d CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd_init.c.obj
+ .debug_line    0x000014f1      0x580 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_line    0x00001a71      0x664 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_line    0x000020d5      0x620 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_line    0x000026f5      0xc49 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_line    0x0000333e     0x43f5 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
 
-.debug_str      0x00000000     0x2022
- .debug_str     0x00000000      0x7f5 CMakeFiles/ST7735s.elf.dir/Core/Src/main.c.obj
-                                0x894 (size before relaxing)
- .debug_str     0x000007f5       0xb8 CMakeFiles/ST7735s.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+.debug_str      0x00000000     0x2129
+ .debug_str     0x00000000      0x7fd CMakeFiles/ST7735s.elf.dir/Core/Src/main.c.obj
+                                0x8a2 (size before relaxing)
+ .debug_str     0x000007fd       0xb8 CMakeFiles/ST7735s.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
                                 0x6ea (size before relaxing)
- .debug_str     0x000008ad       0xdb CMakeFiles/ST7735s.elf.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_str     0x000008b5       0xdb CMakeFiles/ST7735s.elf.dir/Core/Src/stm32f1xx_it.c.obj
                                 0x268 (size before relaxing)
- .debug_str     0x00000988       0xa2 CMakeFiles/ST7735s.elf.dir/Core/Src/system_stm32f1xx.c.obj
+ .debug_str     0x00000990       0xa2 CMakeFiles/ST7735s.elf.dir/Core/Src/system_stm32f1xx.c.obj
                                 0x29a (size before relaxing)
- .debug_str     0x00000a2a       0x5a CMakeFiles/ST7735s.elf.dir/Core/Startup/startup_stm32f103rctx.s.obj
+ .debug_str     0x00000a32       0x5a CMakeFiles/ST7735s.elf.dir/Core/Startup/startup_stm32f103rctx.s.obj
                                  0x93 (size before relaxing)
- .debug_str     0x00000a84       0x5b CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd.c.obj
-                                0x20a (size before relaxing)
- .debug_str     0x00000adf       0x81 CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd_init.c.obj
+ .debug_str     0x00000a8c      0x16d CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd.c.obj
+                                0x350 (size before relaxing)
+ .debug_str     0x00000bf9       0x73 CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd_init.c.obj
                                 0x2b5 (size before relaxing)
- .debug_str     0x00000b60      0x6f6 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_str     0x00000c6c      0x6f6 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
                                 0x94e (size before relaxing)
- .debug_str     0x00001256      0x3e9 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_str     0x00001362      0x3e9 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
                                 0x9fd (size before relaxing)
- .debug_str     0x0000163f      0x13e CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_str     0x0000174b      0x139 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
                                 0x446 (size before relaxing)
- .debug_str     0x0000177d      0x218 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_str     0x00001884      0x218 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
                                 0x671 (size before relaxing)
- .debug_str     0x00001995      0x68d CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_str     0x00001a9c      0x68d CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
                                 0xd3a (size before relaxing)
 
 .comment        0x00000000       0x49
@@ -1316,33 +1350,33 @@ LOAD d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/
  .comment       0x00000049       0x4a CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .comment       0x00000049       0x4a CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
 
-.debug_frame    0x00000000      0xfdc
+.debug_frame    0x00000000     0x10cc
  .debug_frame   0x00000000       0x98 CMakeFiles/ST7735s.elf.dir/Core/Src/main.c.obj
  .debug_frame   0x00000098       0x60 CMakeFiles/ST7735s.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
  .debug_frame   0x000000f8       0xa8 CMakeFiles/ST7735s.elf.dir/Core/Src/stm32f1xx_it.c.obj
  .debug_frame   0x000001a0       0x30 CMakeFiles/ST7735s.elf.dir/Core/Src/system_stm32f1xx.c.obj
- .debug_frame   0x000001d0       0x38 CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd.c.obj
- .debug_frame   0x00000208       0xc4 CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd_init.c.obj
- .debug_frame   0x000002cc      0x1cc CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_frame   0x00000498      0x118 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_frame   0x000005b0       0xe4 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_frame   0x00000694      0x184 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_frame   0x00000818      0x5d8 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
- .debug_frame   0x00000df0       0x2c d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-init.o)
- .debug_frame   0x00000e1c       0x2c d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-memset.o)
- .debug_frame   0x00000e48       0x5c d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__call_atexit.o)
- .debug_frame   0x00000ea4       0x20 d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-atexit.o)
- .debug_frame   0x00000ec4       0x34 d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-fini.o)
- .debug_frame   0x00000ef8       0xb0 d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-lock.o)
- .debug_frame   0x00000fa8       0x34 d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__atexit.o)
+ .debug_frame   0x000001d0      0x124 CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd.c.obj
+ .debug_frame   0x000002f4       0xc8 CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd_init.c.obj
+ .debug_frame   0x000003bc      0x1cc CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_frame   0x00000588      0x118 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_frame   0x000006a0       0xe4 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_frame   0x00000784      0x184 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_frame   0x00000908      0x5d8 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_frame   0x00000ee0       0x2c d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-init.o)
+ .debug_frame   0x00000f0c       0x2c d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-memset.o)
+ .debug_frame   0x00000f38       0x5c d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__call_atexit.o)
+ .debug_frame   0x00000f94       0x20 d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-atexit.o)
+ .debug_frame   0x00000fb4       0x34 d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-fini.o)
+ .debug_frame   0x00000fe8       0xb0 d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-lock.o)
+ .debug_frame   0x00001098       0x34 d:/app/armgcc~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__atexit.o)
 
-.debug_loc      0x00000000     0x5ee3
+.debug_loc      0x00000000     0x63d2
  .debug_loc     0x00000000       0x99 CMakeFiles/ST7735s.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
  .debug_loc     0x00000099       0xff CMakeFiles/ST7735s.elf.dir/Core/Src/system_stm32f1xx.c.obj
- .debug_loc     0x00000198       0x69 CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd.c.obj
- .debug_loc     0x00000201      0x172 CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd_init.c.obj
- .debug_loc     0x00000373      0x141 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_loc     0x000004b4      0x71f CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_loc     0x00000bd3      0x47d CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_loc     0x00001050      0x618 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_loc     0x00001668     0x487b CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_loc     0x00000198      0x558 CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd.c.obj
+ .debug_loc     0x000006f0      0x172 CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd_init.c.obj
+ .debug_loc     0x00000862      0x141 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_loc     0x000009a3      0x71f CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_loc     0x000010c2      0x47d CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_loc     0x0000153f      0x618 CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_loc     0x00001b57     0x487b CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj

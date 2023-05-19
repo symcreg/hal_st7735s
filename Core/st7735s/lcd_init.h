@@ -17,11 +17,9 @@
 #ifndef ST7735S_LCD_INIT_H
 #define ST7735S_LCD_INIT_H
 
-
-
 #include "stm32f1xx_hal.h"
 
-#define lcdHeight 128
+#define lcdHeight 160
 #define lcdWidth 128
 
 #define clkSet() HAL_GPIO_WritePin(GPIOB,GPIO_PIN_7,GPIO_PIN_SET)

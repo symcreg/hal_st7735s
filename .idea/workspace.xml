@@ -21,25 +21,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f1fc80d-e439-429a-81ae-e50ad50f9314" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Core/st7735s/lcd_font.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/st7735s/readme.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/st7735s/lcd.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/st7735s/lcd.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/st7735s/lcd.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/st7735s/lcd.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/st7735s/lcd_init.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/st7735s/lcd_init.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/st7735s/lcd_init.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/st7735s/lcd_init.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ST7735s.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/ST7735s.ioc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-05-16T14-04-08-0403.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-8c28dcd0fe4bfa678815.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-7cb90aff795916b389ef.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-05-17T07-24-20-0409.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.24.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.24.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.24.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.24.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ST7735s.elf.dir/Core/Src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ST7735s.elf.dir/Core/Src/main.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd_init.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd_init.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/ST7735s.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ST7735s.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/ST7735s.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ST7735s.elf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/ST7735s.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ST7735s.hex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/ST7735s.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ST7735s.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,12 +70,16 @@
     <option name="minorVersion" value="3.2" />
   </component>
   <component name="ProjectId" id="2Pr9gfmZZ2NdqcXqkf9Ctyxer8M" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
@@ -84,11 +96,6 @@
   }
 }</component>
   <component name="RunManager" selected="OpenOCD Download &amp; Run.OCD ST7735s">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ST7735s.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ST7735s" TARGET_NAME="ST7735s.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ST7735s" RUN_TARGET_NAME="ST7735s.elf">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -122,22 +129,20 @@
       <workItem from="1684230732961" duration="860000" />
       <workItem from="1684243482848" duration="5272000" />
       <workItem from="1684276864172" duration="81000" />
-      <workItem from="1684307231392" duration="5969000" />
+      <workItem from="1684307231392" duration="8029000" />
+      <workItem from="1684317758078" duration="341000" />
+      <workItem from="1684325931546" duration="1443000" />
+      <workItem from="1684383746092" duration="2612000" />
+      <workItem from="1684469539635" duration="2352000" />
+      <workItem from="1684472455805" duration="278000" />
+      <workItem from="1684480853878" duration="3284000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Core/st7735s/lcd_init.c</url>
-          <line>168</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
