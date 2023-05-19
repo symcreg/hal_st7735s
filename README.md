@@ -3,7 +3,7 @@ a hal lcd library of st7735s
 1.8 inch st7735s software spi  
 **默认接线：**  
 ```
-3V3				VIN  
+3V3				VCC  
 GND				GND  
 SCL				PB7  
 SDA				PA5  
