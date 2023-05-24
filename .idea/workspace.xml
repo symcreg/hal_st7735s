@@ -21,18 +21,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f1fc80d-e439-429a-81ae-e50ad50f9314" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Core/st7735s/lcd_font.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/st7735s/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/st7735s/img.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/st7735s/lcd.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/st7735s/lcd.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/st7735s/lcd.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/st7735s/lcd.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/st7735s/lcd_font.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/st7735s/lcd_font.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/st7735s/lcd_init.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/st7735s/lcd_init.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/st7735s/lcd_init.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/st7735s/lcd_init.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/st7735s/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Core/st7735s/readme.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ST7735s.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/ST7735s.ioc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-8c28dcd0fe4bfa678815.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-7cb90aff795916b389ef.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-05-17T07-24-20-0409.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-7f69b1ee4c89167491fe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-0299029ba3bf4ecf4e69.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-1cbfa2f2fb1b4060645f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-05-19T05-02-37-0331.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-ST7735s.elf-Debug-154454d5e73d41082a0b.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
@@ -77,25 +80,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/symct/Desktop/program/ST7735s/CMakeLists.txt&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;CLionExternalConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "C:/Users/symct/Desktop/program/ST7735s",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "CLionExternalConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\symct\Desktop\program\ST7735s\Core\st7735s" />
+    </key>
+  </component>
   <component name="RunManager" selected="OpenOCD Download &amp; Run.OCD ST7735s">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ST7735s.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ST7735s" TARGET_NAME="ST7735s.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ST7735s" RUN_TARGET_NAME="ST7735s.elf">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -135,7 +148,10 @@
       <workItem from="1684383746092" duration="2612000" />
       <workItem from="1684469539635" duration="2352000" />
       <workItem from="1684472455805" duration="278000" />
-      <workItem from="1684480853878" duration="3284000" />
+      <workItem from="1684480853878" duration="3405000" />
+      <workItem from="1684484790715" duration="1033000" />
+      <workItem from="1684493083530" duration="53000" />
+      <workItem from="1684912142077" duration="5683000" />
     </task>
     <servers />
   </component>

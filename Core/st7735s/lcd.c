@@ -137,14 +137,61 @@ void lcdDrawString(struct Point p,const uint8_t *str,uint16_t charColor,uint16_t
         str++;
     }
 }
-//未测试
-void lcdDrawImg(struct Point p1,uint16_t length,uint16_t height,const uint8_t *img){
+uint32_t myPow(uint8_t m,uint8_t n){
+    uint32_t result=1;
+    while(n--) {
+        result *= m;
+    }
+    return result;
+}
+//坐标位置，显示数字，显示位数，字体颜色，背景颜色，字体大小
+void lcdDrawIntNum(struct Point p, uint16_t num, uint8_t len, uint16_t frontColor, uint16_t backgroundColor, uint8_t sizeY){
+    uint8_t t,temp;
+    uint8_t enShow=0;
+    uint8_t sizeX= sizeY / 2;
+    uint8_t t1=p.x;
+    for(t=0;t<len;t++){
+        temp=(num/myPow(10,len-t-1))%10;
+        if(enShow == 0 && t < (len - 1)){
+            if(temp==0){
+                p.x=t1+ t * sizeX;
+                lcdDrawChar(p, ' ', frontColor, backgroundColor, sizeY, 0);
+                continue;
+            }else {
+                enShow = 1;
+            }
+        }
+        p.x=t1+ t * sizeX;
+        lcdDrawChar(p,temp+48, frontColor, backgroundColor, sizeY, 0);
+    }
+}
+//坐标位置，显示数字，显示位数，字体颜色，背景颜色，字体大小
+void lcdDrawFloatNum(struct Point p, float num, uint8_t len, uint16_t frontColor, uint16_t backgroundColor, uint8_t sizeY){
+    uint8_t t,temp,sizeX;
+    uint16_t num1;
+    uint8_t t1=p.x;
+    sizeX= sizeY / 2;
+    num1=num*100;
+    for(t=0;t<len;t++){
+        temp=(num1/myPow(10,len-t-1))%10;
+        if(t==(len-2)){
+            p.x=t1+ (len-2) * sizeX;
+            lcdDrawChar(p, '.', frontColor, backgroundColor, sizeY, 0);
+            t++;
+            len+=1;
+        }
+        p.x=t1+ t * sizeX;
+        lcdDrawChar(p,temp+48, frontColor, backgroundColor, sizeY, 0);
+    }
+}
+//坐标位置，宽度，高度，图片数组
+void lcdDrawImg(struct Point p,uint16_t length,uint16_t height,const uint8_t *img){
     uint32_t k=0;
-    lcdSetAddress(p1.x,p1.y,length,height);
+    lcdSetAddress(p.y,p.y,p.y+length,p.y+height);
     for(uint16_t i=0;i<length;i++){
         for(uint16_t j=0;j<height;j++){
             lcdWriteData8(img[k*2]);
-            lcdWriteData(img[k*2+1]);
+            lcdWriteData8(img[k*2+1]);
             k++;
         }
     }

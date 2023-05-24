@@ -93,7 +93,7 @@ void lcdInit(){
     lcdWriteCommand(0xC5); //VCOM
     lcdWriteData8(0x0a);
     lcdWriteCommand(0x36);
-    lcdWriteData8(0xA8);//横向
+    lcdWriteData8(0xA0);//横向,RGB格式
     //------------------------------------ST7735S Gamma Sequence-----------------------------------------//
     lcdWriteCommand(0XE0);
     lcdWriteData8(0x12);

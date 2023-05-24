@@ -56,6 +56,8 @@ build CMakeFiles/ST7735s.elf.dir/Core/Src/main.c.obj: C_COMPILER__ST7735s.2eelf_
   INCLUDES = -IC:/Users/symct/Desktop/program/ST7735s/Core/Inc -IC:/Users/symct/Desktop/program/ST7735s/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/symct/Desktop/program/ST7735s/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/symct/Desktop/program/ST7735s/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/symct/Desktop/program/ST7735s/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\ST7735s.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\ST7735s.elf.dir\Core\Src
+  TARGET_COMPILE_PDB = CMakeFiles\ST7735s.elf.dir\
+  TARGET_PDB = ST7735s.elf.pdb
 
 build CMakeFiles/ST7735s.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: C_COMPILER__ST7735s.2eelf_Debug C$:/Users/symct/Desktop/program/ST7735s/Core/Src/stm32f1xx_hal_msp.c || cmake_object_order_depends_target_ST7735s.elf
   DEFINES = -DDEBUG -DSTM32F103xE -DUSE_HAL_DRIVER
@@ -64,6 +66,8 @@ build CMakeFiles/ST7735s.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: C_COMPILER__S
   INCLUDES = -IC:/Users/symct/Desktop/program/ST7735s/Core/Inc -IC:/Users/symct/Desktop/program/ST7735s/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/symct/Desktop/program/ST7735s/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/symct/Desktop/program/ST7735s/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/symct/Desktop/program/ST7735s/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\ST7735s.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\ST7735s.elf.dir\Core\Src
+  TARGET_COMPILE_PDB = CMakeFiles\ST7735s.elf.dir\
+  TARGET_PDB = ST7735s.elf.pdb
 
 build CMakeFiles/ST7735s.elf.dir/Core/Src/stm32f1xx_it.c.obj: C_COMPILER__ST7735s.2eelf_Debug C$:/Users/symct/Desktop/program/ST7735s/Core/Src/stm32f1xx_it.c || cmake_object_order_depends_target_ST7735s.elf
   DEFINES = -DDEBUG -DSTM32F103xE -DUSE_HAL_DRIVER
@@ -72,6 +76,8 @@ build CMakeFiles/ST7735s.elf.dir/Core/Src/stm32f1xx_it.c.obj: C_COMPILER__ST7735
   INCLUDES = -IC:/Users/symct/Desktop/program/ST7735s/Core/Inc -IC:/Users/symct/Desktop/program/ST7735s/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/symct/Desktop/program/ST7735s/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/symct/Desktop/program/ST7735s/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/symct/Desktop/program/ST7735s/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\ST7735s.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\ST7735s.elf.dir\Core\Src
+  TARGET_COMPILE_PDB = CMakeFiles\ST7735s.elf.dir\
+  TARGET_PDB = ST7735s.elf.pdb
 
 build CMakeFiles/ST7735s.elf.dir/Core/Src/syscalls.c.obj: C_COMPILER__ST7735s.2eelf_Debug C$:/Users/symct/Desktop/program/ST7735s/Core/Src/syscalls.c || cmake_object_order_depends_target_ST7735s.elf
   DEFINES = -DDEBUG -DSTM32F103xE -DUSE_HAL_DRIVER
@@ -80,6 +86,8 @@ build CMakeFiles/ST7735s.elf.dir/Core/Src/syscalls.c.obj: C_COMPILER__ST7735s.2e
   INCLUDES = -IC:/Users/symct/Desktop/program/ST7735s/Core/Inc -IC:/Users/symct/Desktop/program/ST7735s/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/symct/Desktop/program/ST7735s/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/symct/Desktop/program/ST7735s/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/symct/Desktop/program/ST7735s/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\ST7735s.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\ST7735s.elf.dir\Core\Src
+  TARGET_COMPILE_PDB = CMakeFiles\ST7735s.elf.dir\
+  TARGET_PDB = ST7735s.elf.pdb
 
 build CMakeFiles/ST7735s.elf.dir/Core/Src/sysmem.c.obj: C_COMPILER__ST7735s.2eelf_Debug C$:/Users/symct/Desktop/program/ST7735s/Core/Src/sysmem.c || cmake_object_order_depends_target_ST7735s.elf
   DEFINES = -DDEBUG -DSTM32F103xE -DUSE_HAL_DRIVER
@@ -88,6 +96,8 @@ build CMakeFiles/ST7735s.elf.dir/Core/Src/sysmem.c.obj: C_COMPILER__ST7735s.2eel
   INCLUDES = -IC:/Users/symct/Desktop/program/ST7735s/Core/Inc -IC:/Users/symct/Desktop/program/ST7735s/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/symct/Desktop/program/ST7735s/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/symct/Desktop/program/ST7735s/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/symct/Desktop/program/ST7735s/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\ST7735s.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\ST7735s.elf.dir\Core\Src
+  TARGET_COMPILE_PDB = CMakeFiles\ST7735s.elf.dir\
+  TARGET_PDB = ST7735s.elf.pdb
 
 build CMakeFiles/ST7735s.elf.dir/Core/Src/system_stm32f1xx.c.obj: C_COMPILER__ST7735s.2eelf_Debug C$:/Users/symct/Desktop/program/ST7735s/Core/Src/system_stm32f1xx.c || cmake_object_order_depends_target_ST7735s.elf
   DEFINES = -DDEBUG -DSTM32F103xE -DUSE_HAL_DRIVER
@@ -96,6 +106,8 @@ build CMakeFiles/ST7735s.elf.dir/Core/Src/system_stm32f1xx.c.obj: C_COMPILER__ST
   INCLUDES = -IC:/Users/symct/Desktop/program/ST7735s/Core/Inc -IC:/Users/symct/Desktop/program/ST7735s/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/symct/Desktop/program/ST7735s/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/symct/Desktop/program/ST7735s/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/symct/Desktop/program/ST7735s/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\ST7735s.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\ST7735s.elf.dir\Core\Src
+  TARGET_COMPILE_PDB = CMakeFiles\ST7735s.elf.dir\
+  TARGET_PDB = ST7735s.elf.pdb
 
 build CMakeFiles/ST7735s.elf.dir/Core/Startup/startup_stm32f103rctx.s.obj: ASM_COMPILER__ST7735s.2eelf_Debug C$:/Users/symct/Desktop/program/ST7735s/Core/Startup/startup_stm32f103rctx.s || cmake_object_order_depends_target_ST7735s.elf
   DEFINES = -DDEBUG -DSTM32F103xE -DUSE_HAL_DRIVER
@@ -104,6 +116,8 @@ build CMakeFiles/ST7735s.elf.dir/Core/Startup/startup_stm32f103rctx.s.obj: ASM_C
   INCLUDES = -IC:/Users/symct/Desktop/program/ST7735s/Core/Inc -IC:/Users/symct/Desktop/program/ST7735s/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/symct/Desktop/program/ST7735s/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/symct/Desktop/program/ST7735s/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/symct/Desktop/program/ST7735s/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\ST7735s.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\ST7735s.elf.dir\Core\Startup
+  TARGET_COMPILE_PDB = CMakeFiles\ST7735s.elf.dir\
+  TARGET_PDB = ST7735s.elf.pdb
 
 build CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd.c.obj: C_COMPILER__ST7735s.2eelf_Debug C$:/Users/symct/Desktop/program/ST7735s/Core/st7735s/lcd.c || cmake_object_order_depends_target_ST7735s.elf
   DEFINES = -DDEBUG -DSTM32F103xE -DUSE_HAL_DRIVER
@@ -112,6 +126,8 @@ build CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd.c.obj: C_COMPILER__ST7735s.2ee
   INCLUDES = -IC:/Users/symct/Desktop/program/ST7735s/Core/Inc -IC:/Users/symct/Desktop/program/ST7735s/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/symct/Desktop/program/ST7735s/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/symct/Desktop/program/ST7735s/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/symct/Desktop/program/ST7735s/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\ST7735s.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\ST7735s.elf.dir\Core\st7735s
+  TARGET_COMPILE_PDB = CMakeFiles\ST7735s.elf.dir\
+  TARGET_PDB = ST7735s.elf.pdb
 
 build CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd_init.c.obj: C_COMPILER__ST7735s.2eelf_Debug C$:/Users/symct/Desktop/program/ST7735s/Core/st7735s/lcd_init.c || cmake_object_order_depends_target_ST7735s.elf
   DEFINES = -DDEBUG -DSTM32F103xE -DUSE_HAL_DRIVER
@@ -120,6 +136,8 @@ build CMakeFiles/ST7735s.elf.dir/Core/st7735s/lcd_init.c.obj: C_COMPILER__ST7735
   INCLUDES = -IC:/Users/symct/Desktop/program/ST7735s/Core/Inc -IC:/Users/symct/Desktop/program/ST7735s/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/symct/Desktop/program/ST7735s/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/symct/Desktop/program/ST7735s/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/symct/Desktop/program/ST7735s/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\ST7735s.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\ST7735s.elf.dir\Core\st7735s
+  TARGET_COMPILE_PDB = CMakeFiles\ST7735s.elf.dir\
+  TARGET_PDB = ST7735s.elf.pdb
 
 build CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: C_COMPILER__ST7735s.2eelf_Debug C$:/Users/symct/Desktop/program/ST7735s/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c || cmake_object_order_depends_target_ST7735s.elf
   DEFINES = -DDEBUG -DSTM32F103xE -DUSE_HAL_DRIVER
@@ -128,6 +146,8 @@ build CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.
   INCLUDES = -IC:/Users/symct/Desktop/program/ST7735s/Core/Inc -IC:/Users/symct/Desktop/program/ST7735s/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/symct/Desktop/program/ST7735s/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/symct/Desktop/program/ST7735s/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/symct/Desktop/program/ST7735s/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\ST7735s.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\ST7735s.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src
+  TARGET_COMPILE_PDB = CMakeFiles\ST7735s.elf.dir\
+  TARGET_PDB = ST7735s.elf.pdb
 
 build CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: C_COMPILER__ST7735s.2eelf_Debug C$:/Users/symct/Desktop/program/ST7735s/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c || cmake_object_order_depends_target_ST7735s.elf
   DEFINES = -DDEBUG -DSTM32F103xE -DUSE_HAL_DRIVER
@@ -136,6 +156,8 @@ build CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_
   INCLUDES = -IC:/Users/symct/Desktop/program/ST7735s/Core/Inc -IC:/Users/symct/Desktop/program/ST7735s/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/symct/Desktop/program/ST7735s/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/symct/Desktop/program/ST7735s/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/symct/Desktop/program/ST7735s/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\ST7735s.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\ST7735s.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src
+  TARGET_COMPILE_PDB = CMakeFiles\ST7735s.elf.dir\
+  TARGET_PDB = ST7735s.elf.pdb
 
 build CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: C_COMPILER__ST7735s.2eelf_Debug C$:/Users/symct/Desktop/program/ST7735s/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c || cmake_object_order_depends_target_ST7735s.elf
   DEFINES = -DDEBUG -DSTM32F103xE -DUSE_HAL_DRIVER
@@ -144,6 +166,8 @@ build CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_
   INCLUDES = -IC:/Users/symct/Desktop/program/ST7735s/Core/Inc -IC:/Users/symct/Desktop/program/ST7735s/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/symct/Desktop/program/ST7735s/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/symct/Desktop/program/ST7735s/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/symct/Desktop/program/ST7735s/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\ST7735s.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\ST7735s.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src
+  TARGET_COMPILE_PDB = CMakeFiles\ST7735s.elf.dir\
+  TARGET_PDB = ST7735s.elf.pdb
 
 build CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj: C_COMPILER__ST7735s.2eelf_Debug C$:/Users/symct/Desktop/program/ST7735s/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c || cmake_object_order_depends_target_ST7735s.elf
   DEFINES = -DDEBUG -DSTM32F103xE -DUSE_HAL_DRIVER
@@ -152,6 +176,8 @@ build CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_
   INCLUDES = -IC:/Users/symct/Desktop/program/ST7735s/Core/Inc -IC:/Users/symct/Desktop/program/ST7735s/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/symct/Desktop/program/ST7735s/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/symct/Desktop/program/ST7735s/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/symct/Desktop/program/ST7735s/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\ST7735s.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\ST7735s.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src
+  TARGET_COMPILE_PDB = CMakeFiles\ST7735s.elf.dir\
+  TARGET_PDB = ST7735s.elf.pdb
 
 build CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: C_COMPILER__ST7735s.2eelf_Debug C$:/Users/symct/Desktop/program/ST7735s/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c || cmake_object_order_depends_target_ST7735s.elf
   DEFINES = -DDEBUG -DSTM32F103xE -DUSE_HAL_DRIVER
@@ -160,6 +186,8 @@ build CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_
   INCLUDES = -IC:/Users/symct/Desktop/program/ST7735s/Core/Inc -IC:/Users/symct/Desktop/program/ST7735s/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/symct/Desktop/program/ST7735s/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/symct/Desktop/program/ST7735s/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/symct/Desktop/program/ST7735s/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\ST7735s.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\ST7735s.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src
+  TARGET_COMPILE_PDB = CMakeFiles\ST7735s.elf.dir\
+  TARGET_PDB = ST7735s.elf.pdb
 
 build CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: C_COMPILER__ST7735s.2eelf_Debug C$:/Users/symct/Desktop/program/ST7735s/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c || cmake_object_order_depends_target_ST7735s.elf
   DEFINES = -DDEBUG -DSTM32F103xE -DUSE_HAL_DRIVER
@@ -168,6 +196,8 @@ build CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_
   INCLUDES = -IC:/Users/symct/Desktop/program/ST7735s/Core/Inc -IC:/Users/symct/Desktop/program/ST7735s/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/symct/Desktop/program/ST7735s/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/symct/Desktop/program/ST7735s/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/symct/Desktop/program/ST7735s/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\ST7735s.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\ST7735s.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src
+  TARGET_COMPILE_PDB = CMakeFiles\ST7735s.elf.dir\
+  TARGET_PDB = ST7735s.elf.pdb
 
 build CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: C_COMPILER__ST7735s.2eelf_Debug C$:/Users/symct/Desktop/program/ST7735s/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c || cmake_object_order_depends_target_ST7735s.elf
   DEFINES = -DDEBUG -DSTM32F103xE -DUSE_HAL_DRIVER
@@ -176,6 +206,8 @@ build CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_
   INCLUDES = -IC:/Users/symct/Desktop/program/ST7735s/Core/Inc -IC:/Users/symct/Desktop/program/ST7735s/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/symct/Desktop/program/ST7735s/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/symct/Desktop/program/ST7735s/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/symct/Desktop/program/ST7735s/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\ST7735s.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\ST7735s.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src
+  TARGET_COMPILE_PDB = CMakeFiles\ST7735s.elf.dir\
+  TARGET_PDB = ST7735s.elf.pdb
 
 build CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: C_COMPILER__ST7735s.2eelf_Debug C$:/Users/symct/Desktop/program/ST7735s/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c || cmake_object_order_depends_target_ST7735s.elf
   DEFINES = -DDEBUG -DSTM32F103xE -DUSE_HAL_DRIVER
@@ -184,6 +216,8 @@ build CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_
   INCLUDES = -IC:/Users/symct/Desktop/program/ST7735s/Core/Inc -IC:/Users/symct/Desktop/program/ST7735s/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/symct/Desktop/program/ST7735s/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/symct/Desktop/program/ST7735s/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/symct/Desktop/program/ST7735s/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\ST7735s.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\ST7735s.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src
+  TARGET_COMPILE_PDB = CMakeFiles\ST7735s.elf.dir\
+  TARGET_PDB = ST7735s.elf.pdb
 
 build CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: C_COMPILER__ST7735s.2eelf_Debug C$:/Users/symct/Desktop/program/ST7735s/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c || cmake_object_order_depends_target_ST7735s.elf
   DEFINES = -DDEBUG -DSTM32F103xE -DUSE_HAL_DRIVER
@@ -192,6 +226,8 @@ build CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_
   INCLUDES = -IC:/Users/symct/Desktop/program/ST7735s/Core/Inc -IC:/Users/symct/Desktop/program/ST7735s/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/symct/Desktop/program/ST7735s/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/symct/Desktop/program/ST7735s/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/symct/Desktop/program/ST7735s/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\ST7735s.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\ST7735s.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src
+  TARGET_COMPILE_PDB = CMakeFiles\ST7735s.elf.dir\
+  TARGET_PDB = ST7735s.elf.pdb
 
 build CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: C_COMPILER__ST7735s.2eelf_Debug C$:/Users/symct/Desktop/program/ST7735s/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c || cmake_object_order_depends_target_ST7735s.elf
   DEFINES = -DDEBUG -DSTM32F103xE -DUSE_HAL_DRIVER
@@ -200,6 +236,8 @@ build CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_
   INCLUDES = -IC:/Users/symct/Desktop/program/ST7735s/Core/Inc -IC:/Users/symct/Desktop/program/ST7735s/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/symct/Desktop/program/ST7735s/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/symct/Desktop/program/ST7735s/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/symct/Desktop/program/ST7735s/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\ST7735s.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\ST7735s.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src
+  TARGET_COMPILE_PDB = CMakeFiles\ST7735s.elf.dir\
+  TARGET_PDB = ST7735s.elf.pdb
 
 build CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: C_COMPILER__ST7735s.2eelf_Debug C$:/Users/symct/Desktop/program/ST7735s/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c || cmake_object_order_depends_target_ST7735s.elf
   DEFINES = -DDEBUG -DSTM32F103xE -DUSE_HAL_DRIVER
@@ -208,6 +246,8 @@ build CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_
   INCLUDES = -IC:/Users/symct/Desktop/program/ST7735s/Core/Inc -IC:/Users/symct/Desktop/program/ST7735s/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/symct/Desktop/program/ST7735s/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/symct/Desktop/program/ST7735s/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/symct/Desktop/program/ST7735s/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\ST7735s.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\ST7735s.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src
+  TARGET_COMPILE_PDB = CMakeFiles\ST7735s.elf.dir\
+  TARGET_PDB = ST7735s.elf.pdb
 
 build CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj: C_COMPILER__ST7735s.2eelf_Debug C$:/Users/symct/Desktop/program/ST7735s/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c || cmake_object_order_depends_target_ST7735s.elf
   DEFINES = -DDEBUG -DSTM32F103xE -DUSE_HAL_DRIVER
@@ -216,6 +256,8 @@ build CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_
   INCLUDES = -IC:/Users/symct/Desktop/program/ST7735s/Core/Inc -IC:/Users/symct/Desktop/program/ST7735s/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/symct/Desktop/program/ST7735s/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/symct/Desktop/program/ST7735s/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/symct/Desktop/program/ST7735s/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\ST7735s.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\ST7735s.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src
+  TARGET_COMPILE_PDB = CMakeFiles\ST7735s.elf.dir\
+  TARGET_PDB = ST7735s.elf.pdb
 
 build CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj: C_COMPILER__ST7735s.2eelf_Debug C$:/Users/symct/Desktop/program/ST7735s/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c || cmake_object_order_depends_target_ST7735s.elf
   DEFINES = -DDEBUG -DSTM32F103xE -DUSE_HAL_DRIVER
@@ -224,6 +266,8 @@ build CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_
   INCLUDES = -IC:/Users/symct/Desktop/program/ST7735s/Core/Inc -IC:/Users/symct/Desktop/program/ST7735s/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/symct/Desktop/program/ST7735s/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/symct/Desktop/program/ST7735s/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/symct/Desktop/program/ST7735s/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\ST7735s.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\ST7735s.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src
+  TARGET_COMPILE_PDB = CMakeFiles\ST7735s.elf.dir\
+  TARGET_PDB = ST7735s.elf.pdb
 
 build CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj: C_COMPILER__ST7735s.2eelf_Debug C$:/Users/symct/Desktop/program/ST7735s/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c || cmake_object_order_depends_target_ST7735s.elf
   DEFINES = -DDEBUG -DSTM32F103xE -DUSE_HAL_DRIVER
@@ -232,6 +276,8 @@ build CMakeFiles/ST7735s.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_
   INCLUDES = -IC:/Users/symct/Desktop/program/ST7735s/Core/Inc -IC:/Users/symct/Desktop/program/ST7735s/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/symct/Desktop/program/ST7735s/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/symct/Desktop/program/ST7735s/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/symct/Desktop/program/ST7735s/Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\ST7735s.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\ST7735s.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src
+  TARGET_COMPILE_PDB = CMakeFiles\ST7735s.elf.dir\
+  TARGET_PDB = ST7735s.elf.pdb
 
 
 # =============================================================================
@@ -247,8 +293,9 @@ build ST7735s.elf: C_EXECUTABLE_LINKER__ST7735s.2eelf_Debug CMakeFiles/ST7735s.e
   OBJECT_DIR = CMakeFiles\ST7735s.elf.dir
   POST_BUILD = cmd.exe /C "cd /D C:\Users\symct\Desktop\program\ST7735s\cmake-build-debug && arm-none-eabi-objcopy -Oihex C:/Users/symct/Desktop/program/ST7735s/cmake-build-debug/ST7735s.elf C:/Users/symct/Desktop/program/ST7735s/cmake-build-debug/ST7735s.hex && arm-none-eabi-objcopy -Obinary C:/Users/symct/Desktop/program/ST7735s/cmake-build-debug/ST7735s.elf C:/Users/symct/Desktop/program/ST7735s/cmake-build-debug/ST7735s.bin"
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\ST7735s.elf.dir\
   TARGET_FILE = ST7735s.elf
-  TARGET_PDB = ST7735s.elf.dbg
+  TARGET_PDB = ST7735s.elf.pdb
 
 
 #############################################
@@ -293,14 +340,14 @@ build all: phony ST7735s.elf
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Users/symct/Desktop/program/ST7735s/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeASMCompiler.cmake CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeASMInformation.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCInformation.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCXXInformation.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeGenericSystem.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-ASM.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-C.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Generic.cmake
+build build.ninja: RERUN_CMAKE | C$:/Users/symct/Desktop/program/ST7735s/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeASMCompiler.cmake CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeASMCompiler.cmake.in D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeASMInformation.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCCompiler.cmake.in D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCCompilerABI.c D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCInformation.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCXXCompiler.cmake.in D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCXXInformation.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCompilerIdDetection.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeDetermineASMCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeDetermineCCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeDetermineCXXCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeDetermineCompileFeatures.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeDetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeDetermineCompilerABI.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeDetermineCompilerId.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeDetermineSystem.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeFindBinUtils.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeGenericSystem.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeParseImplicitIncludeInfo.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeParseImplicitLinkInfo.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeParseLibraryArchitecture.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeSystem.cmake.in D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeTestASMCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeTestCCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeTestCXXCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeTestCompilerCommon.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/ADSP-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/ARMCC-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/ARMClang-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/AppleClang-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/Borland-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/Bruce-C-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompilerInternal.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/Compaq-C-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/Cray-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/Embarcadero-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/Fujitsu-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GHS-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-ASM.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-C-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-C.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-FindBinUtils.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/HP-C-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/HP-CXX-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/IAR-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/Intel-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/LCC-C-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/MSVC-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/NVHPC-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/NVIDIA-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/PGI-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/PathScale-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/SCO-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/SDCC-C-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/SunPro-C-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/TI-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/Watcom-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/XL-C-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/XL-CXX-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/XLClang-C-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/zOS-C-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Internal/FeatureTesting.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Generic.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/symct/Desktop/program/ST7735s/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeASMCompiler.cmake CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeASMInformation.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCInformation.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCXXInformation.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeGenericSystem.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-ASM.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-C.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Generic.cmake: phony
+build C$:/Users/symct/Desktop/program/ST7735s/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeASMCompiler.cmake CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeASMCompiler.cmake.in D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeASMInformation.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCCompiler.cmake.in D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCCompilerABI.c D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCInformation.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCXXCompiler.cmake.in D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCXXInformation.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCompilerIdDetection.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeDetermineASMCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeDetermineCCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeDetermineCXXCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeDetermineCompileFeatures.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeDetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeDetermineCompilerABI.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeDetermineCompilerId.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeDetermineSystem.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeFindBinUtils.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeGenericSystem.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeParseImplicitIncludeInfo.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeParseImplicitLinkInfo.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeParseLibraryArchitecture.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeSystem.cmake.in D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeTestASMCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeTestCCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeTestCXXCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeTestCompilerCommon.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/ADSP-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/ARMCC-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/ARMClang-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/AppleClang-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/Borland-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/Bruce-C-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompilerInternal.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/Compaq-C-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/Cray-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/Embarcadero-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/Fujitsu-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GHS-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-ASM.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-C-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-C.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-FindBinUtils.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/HP-C-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/HP-CXX-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/IAR-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/Intel-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/LCC-C-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/MSVC-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/NVHPC-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/NVIDIA-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/PGI-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/PathScale-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/SCO-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/SDCC-C-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/SunPro-C-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/TI-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/Watcom-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/XL-C-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/XL-CXX-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/XLClang-C-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/zOS-C-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Internal/FeatureTesting.cmake D$:/App/CLion$ 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Generic.cmake: phony
 
 
 #############################################

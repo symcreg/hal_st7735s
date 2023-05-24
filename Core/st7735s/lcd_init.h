@@ -25,14 +25,14 @@
 #define clkSet() HAL_GPIO_WritePin(GPIOB,GPIO_PIN_7,GPIO_PIN_SET)
 #define clkReset() HAL_GPIO_WritePin(GPIOB,GPIO_PIN_7,GPIO_PIN_RESET)
 
-#define sdaSet() HAL_GPIO_WritePin(GPIOA,GPIO_PIN_5,GPIO_PIN_SET)
-#define sdaReset() HAL_GPIO_WritePin(GPIOA,GPIO_PIN_5,GPIO_PIN_RESET)
+#define sdaSet() HAL_GPIO_WritePin(GPIOB,GPIO_PIN_4,GPIO_PIN_SET)
+#define sdaReset() HAL_GPIO_WritePin(GPIOB,GPIO_PIN_4,GPIO_PIN_RESET)
 
-#define rstSet() HAL_GPIO_WritePin(GPIOA,GPIO_PIN_6,GPIO_PIN_SET)
-#define rstReset() HAL_GPIO_WritePin(GPIOA,GPIO_PIN_6,GPIO_PIN_RESET)
+#define rstSet() HAL_GPIO_WritePin(GPIOB,GPIO_PIN_5,GPIO_PIN_SET)
+#define rstReset() HAL_GPIO_WritePin(GPIOB,GPIO_PIN_5,GPIO_PIN_RESET)
 
-#define rsSet() HAL_GPIO_WritePin(GPIOA,GPIO_PIN_7,GPIO_PIN_SET)
-#define rsReset() HAL_GPIO_WritePin(GPIOA,GPIO_PIN_7,GPIO_PIN_RESET)
+#define rsSet() HAL_GPIO_WritePin(GPIOB,GPIO_PIN_3,GPIO_PIN_SET)
+#define rsReset() HAL_GPIO_WritePin(GPIOB,GPIO_PIN_3,GPIO_PIN_RESET)
 
 #define csSet() HAL_GPIO_WritePin(GPIOB,GPIO_PIN_6,GPIO_PIN_SET)
 #define csReset() HAL_GPIO_WritePin(GPIOB,GPIO_PIN_6,GPIO_PIN_RESET)
